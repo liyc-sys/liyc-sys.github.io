@@ -52,7 +52,7 @@ Additional licensing information can be found YOUR WEBSITE LINK.
 
 I named this website "生亦何欢，死亦何苦".
 In English, it can be put as
->Don't be obsessive about the wonderful life, nor be afraid of the unknown death
+>Don't be obsessive about the wonderful life, nor be afraid of the unknown death.
 
 # Contact
 
