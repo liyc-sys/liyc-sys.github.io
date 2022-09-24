@@ -1,6 +1,6 @@
 ---
 title: first post 第一条博客
-commentable: false
+commentable: true
 Edit: 2022-09-23
 mathjax: true
 mermaid: true
