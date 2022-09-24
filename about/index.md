@@ -56,5 +56,5 @@ In English, it can be put as
 
 # Contact
 
-The best way to reach me is via email: $liyc_sem@126.com$.
-Or the university email address: $yuchen-l20@tsinghua.edu.cn$
+The best way to reach me is via email: liyc_sem@126.com.  
+Or the university email address: yuchen-l20@tsinghua.edu.cn
