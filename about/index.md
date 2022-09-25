@@ -9,7 +9,7 @@ mathjax: true
 ---
 # The Name
 
-I named this website "生亦何欢，死亦何苦".
+I named this website "生何欢，死何苦".
 In English, it can be put as
 >Don't be obsessive about the wonderful life, nor be afraid of the unknown death.
 
