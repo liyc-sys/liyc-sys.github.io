@@ -11,5 +11,4 @@ description: 这是本网站的第一条测试博客.
 
 Hello, world!
 你好，世界！
-命名方式：
-2022-09-23-first-post.md
+
