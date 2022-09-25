@@ -8,7 +8,8 @@ protected: true
 mathjax: true
 ---
 # The Name
->问天何寿？问地何极？人生几何？生何欢？死何苦？情为何物？轮回何在？神鬼安有？苍生何辜？    
+>问天何寿？问地何极？人生几何？生何欢？死何苦？情为何物？轮回何在？神鬼安有？苍生何辜
+    
 I named this website "生何欢，死何苦".
 In English, it can be put as
 >Don't be obsessive about the wonderful life, nor be afraid of the unknown death.
