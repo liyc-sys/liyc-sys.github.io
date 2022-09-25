@@ -7,13 +7,18 @@ commentable: false
 protected: true
 mathjax: true
 ---
+# The Name
+
+I named this website "生亦何欢，死亦何苦".
+In English, it can be put as
+>Don't be obsessive about the wonderful life, nor be afraid of the unknown death.
 
 # Me
-
+居住在位于银河系猎户支臂上太阳系内第三行星上的普通人。正在探索自我与世界。不过从每日步数上来看似乎前者居多。
 
 
 # This Site
-
+这是我的个人网站，用来记录日常的生活和学习。
 
 # Posts
 
@@ -48,11 +53,6 @@ This website uses these sources:
 
 Additional licensing information can be found YOUR WEBSITE LINK.
 
-# The Name
-
-I named this website "生亦何欢，死亦何苦".
-In English, it can be put as
->Don't be obsessive about the wonderful life, nor be afraid of the unknown death.
 
 # Contact
 
