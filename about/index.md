@@ -14,7 +14,7 @@ In English, it can be put as
 >Don't be obsessive about the wonderful life, nor be afraid of the unknown death.
 
 # Me
-居住在位于银河系猎户支臂上太阳系内第三行星上的普通人。正在探索自我与世界。不过从每日步数上来看似乎前者居多。
+居住在银河系猎户支臂太阳系内第三行星上的普通人。正在探索自我与世界。不过从每日步数上来看似乎前者居多。
 
 
 # This Site
@@ -57,4 +57,4 @@ Additional licensing information can be found YOUR WEBSITE LINK.
 # Contact
 
 The best way to reach me is via email: liyc_sem@126.com.  
-Or the university email address: yuchen-l20@tsinghua.edu.cn
+Or the university email address: yuchen-l20@mails.tsinghua.edu.cn
