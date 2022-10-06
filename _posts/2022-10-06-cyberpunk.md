@@ -6,7 +6,7 @@ mathjax: true
 mermaid: true
 tags: cyberpunk 动漫
 categories: personal-comments
-description: neon lights,neon dreams.
+description: neon light,neon dreams.
 ---
 Let you down(片尾曲)<br>
 <audio controls>
