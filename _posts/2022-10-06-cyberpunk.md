@@ -13,4 +13,5 @@ Let you down(片尾曲)<br>
 	<source src="https://liyc-sys.github.io/music/let_you_down.mp3" type="audio/mpeg">
 </audio>
 <center><embed src="https://liyc-sys.github.io/pdf/cyberpunk1.pdf" width="100%" height="850px"></center>
+<center><embed src="https://liyc-sys.github.io/pdf/cyberpunk2.pdf" width="100%" height="850px"></center>
 
