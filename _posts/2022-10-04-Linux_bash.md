@@ -1,5 +1,5 @@
 ---
-title: Debug记录-Texture Transfer
+title: Linux Bash Lab
 commentable: true
 Edit: 2022-10-04
 mathjax: true
