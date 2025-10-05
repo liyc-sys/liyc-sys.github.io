@@ -93,6 +93,8 @@ This project explores advanced computational photography techniques through vide
 * **Extended Video Width**: Generated wider street view by expanding canvas beyond original boundaries
 
 **Video Demonstrations:**
+
+
 [Optimized Background Video - CS445 Project5 Part9](https://www.bilibili.com/video/BV15Y411Z73S/?share_source=copy_web&vd_source=d3812f4b8deaefff649e54aa7decd2e9)
 
 [Optimized Foreground Video - CS445 Project5 Part9](https://www.bilibili.com/video/BV1184y1v7Fv/?share_source=copy_web&vd_source=d3812f4b8deaefff649e54aa7decd2e9)
