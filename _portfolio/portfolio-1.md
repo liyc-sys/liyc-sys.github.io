@@ -5,10 +5,7 @@ collection: portfolio
 date: 2025-05-01
 category: research
 ---
-
-# Enhancing the Perception Ability of VLM through Reinforcement Learning via Data Engine
-
-**Yuchen Li**  
+ 
 Tsinghua University  
 May 2025  
 
