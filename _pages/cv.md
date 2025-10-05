@@ -37,7 +37,10 @@ Professional Experience
 Skills & Competitions
 ======
 **Programming:** Python, C++
-**Certificates:** FRM Level 1, CFA Level I (exam completed, results expected Oct)
+
+**Certificates:**
+* **FRM Level 1**
+* **CFA Level I** (exam completed, results expected Oct)
 
 **Kaggle -- [CURE-Bench @NeurIPS 2025](https://www.kaggle.com/competitions/cure-bench/leaderboard)**
 * Built a multi-agent system for multi-hop medical tool calls with optimized retrieval and reasoning pipelines.
@@ -48,3 +51,7 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  
+Service and Leadership
+======
+* Deputy Team Leader - Organized academic practice trip to Japan

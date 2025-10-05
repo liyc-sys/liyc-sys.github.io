@@ -1,14 +1,14 @@
 ---
 permalink: /
-title: "Yuchen Li - Personal Academic Website"
+title: "Yuchen Li - Personal Website"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Welcome to my personal academic website. I am currently pursuing a Master's degree in Financial Technology (Artificial Intelligence and Finance Track) at Tsinghua University with a GPA of 4.0, holding an Excellence Scholarship that covers 50% of my tuition.
+I studied Computer Science and Finance as a dual degree at Tsinghua, and further specialized in their intersection—AI in finance—during my master's program. This training equipped me with both rigorous financial theory and strong programming skills.
 
-My research and professional interests span across artificial intelligence, quantitative finance, and machine learning applications in financial markets. I have worked as an AI Research Intern at Zhipu AI and as a Quantitative Research Intern at leading financial institutions including CICC-Fixed Income and Boyu Capital.
+My professional journey has spanned AI research, the sellside, and the buyside, giving me firsthand exposure to multiple approaches in finance and technology. Through these experiences, I developed a clear passion for quantitative research, particularly the application of large language models. As WorldQuant's Igor Tulchinsky has observed, "The first thing that the LLM can do is structure data, and 80% of data out there is unstructured." I believe this technology holds significant potential for advancing quantitative research.
 
-This website showcases my publications, research experience, and professional background in both AI and quantitative finance.
+Going forward, I aim to contribute to a leading QR team by leveraging finance and AI to build scalable, data-driven strategies.
