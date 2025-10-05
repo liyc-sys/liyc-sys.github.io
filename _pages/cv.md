@@ -39,7 +39,7 @@ Skills & Competitions
 **Programming:** Python, C++
 **Certificates:** FRM Level 1, CFA Level I (exam completed, results expected Oct)
 
-**Kaggle -- CURE-Bench @NeurIPS 2025**
+**Kaggle -- [CURE-Bench @NeurIPS 2025](https://www.kaggle.com/competitions/cure-bench/leaderboard)**
 * Built a multi-agent system for multi-hop medical tool calls with optimized retrieval and reasoning pipelines.
 * Currently ranked #1/223 under team name einsteinGauss
 
