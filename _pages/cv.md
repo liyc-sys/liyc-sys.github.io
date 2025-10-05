@@ -20,7 +20,7 @@ Professional Experience
 ======
 * 02/2025 – Present: AI Research Intern
   * Zhipu AI (Series D), Beijing, China
-  * Data Methodology Innovation: Conducted research on Enhancing the Perception Ability of Visual Language Models (VLMs) through RL via Data Engine, designing a synthetic data engine that creates auto-verifiable perception QA tasks to support stable on-policy GRPO training and boost fine-grained visual perception.
+  * Data Methodology Innovation: Conducted research on [Enhancing the Perception Ability of Visual Language Models (VLMs) through RL via Data Engine](https://www.notion.so/Enhancing-the-Perception-Ability-of-VLM-through-Reinforcement-Learning-via-Data-Engine-1aca1e0d824c80898693ed5fec3348ac), designing a synthetic data engine that creates auto-verifiable perception QA tasks to support stable on-policy GRPO training and boost fine-grained visual perception.
   * GRPO Mixed-Policy Extension: Built a mixed-policy GRPO variant blending on-policy rollouts with high-reward replay, boosting convergence by 20% and accuracy by +2.3% across 12 benchmarks (e.g. MathVision).
 
 * 11/2024 – 01/2025: Quantitative Research Intern

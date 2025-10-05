@@ -1,7 +1,104 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Enhancing the Perception Ability of VLM through Reinforcement Learning via Data Engine"
+excerpt: "Research on improving VLM visual perception using synthetic data engines and reinforcement learning. Targeted enhancement of fine-grained visual understanding through cost-effective, automatically verifiable QA tasks."
 collection: portfolio
+date: 2025-05-01
+category: research
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+# Enhancing the Perception Ability of VLM through Reinforcement Learning via Data Engine
+
+**Yuchen Li**  
+Tsinghua University  
+May 2025  
+
+*Note: Due to company policy restrictions, this research cannot be published independently on arXiv. This work is documented in blog format to share the findings with the research community.*
+
+## TL;DR
+
+**Perceptual capability is critical for Vision-Language Models (VLMs).** However, current VLM training efforts primarily focus on various multimodal reasoning or generation tasks, with relatively little attention paid to improving the model's perception ability. This is largely because perception skills are difficult to train directly through supervised fine-tuning (SFT). Recently, reinforcement learning (RL) has emerged as a promising alternative.
+
+Yet acquiring high-quality perception data—either from the internet or via human annotation—is expensive and often inconsistent. This research explores an alternative approach: using *Data Engines* to construct synthetic data tailored for reinforcement learning training of VLMs. This method is cost-effective, ensures correctness of the data, and offers full flexibility in data customization.
+
+## Background & Motivation
+
+The standard way to evaluate the capabilities of multimodal reasoning models is by measuring their accuracy on benchmarks such as MMLU and MathVista. Through detailed analysis of model responses, we found that both correct and incorrect answers often involved errors in visual perception—suggesting that models may answer questions correctly not by accurately understanding the image, but by relying on prior knowledge or coincidence.
+
+### Key Observation
+
+In an analysis of MathVision problems, we observed that:
+- **Wrong answers** often contained significant errors in recognizing key visual details
+- **"Correct" answers** sometimes arrived at the right conclusion through inaccurate visual observations, suggesting memorization rather than genuine understanding
+
+This indicated that inaccurate perception of visual details is not only a frequent cause of reasoning errors, but also negatively impacts user experience and trust in model responses.
+
+## Approach: Data Engine + Reinforcement Learning
+
+Because we encountered major difficulties generating visual‐perception QA pairs from existing multimodal reasoning data, we turned to building a data engine specifically for that purpose.
+
+### Advantages of Data Engine Approach:
+1. **Pros:**
+   - Target specific domains and adjust question difficulty dynamically based on VLM performance
+   - Guarantee 100% correct QA pairs, avoiding contamination by erroneous examples
+2. **Con:**
+   - The resulting data distribution is relatively narrow, so generalization may be weaker
+
+### Data Categories
+
+Our data engine synthesized large datasets in six categories:
+1. **Grid-based problems** - 2D shapes on square grids
+2. **Cube-based problems** - 3D cube configurations
+3. **Chart-based problems** - Bar charts, pie charts analysis
+4. **Sudoku-based problems** - Pattern recognition tasks
+5. **Function-based problems** - Function graph analysis
+6. **Geometry-based problems** - Euclidean geometry
+
+Unlike prior efforts, our data engine is explicitly designed to target the visual‐perception skills needed for multimodal reasoning. While ensuring QA accuracy, we also diversify the images to better simulate real‐world inputs—for example, by applying "photograph‐like" enhancements to some images.
+
+## Training Framework & Results
+
+### Key Technical Decisions:
+
+1. **Answer Extraction Method**: Adopted stricter method that only considers answers inside `<answer>\boxed{…}</answer>` tags to prevent "hacking"
+
+2. **Training Parameters**: 
+   - KL-divergence penalty coefficient: 0
+   - Temperature: 1.0
+   - Using GRPO algorithm with on-policy setup
+
+3. **Data Sampling**: Applied stratified sampling by difficulty level using Qwen2.5VL 7B model performance
+
+### Experimental Results:
+
+The model achieved significant accuracy improvements on:
+- **In-distribution test sets** (Test A/B/C/D): Substantial gains
+- **Public benchmarks**: Noticeable improvement on DynaMath
+- **Training stability**: Steady reward increase, no signs of reward hacking
+
+### Key Findings:
+
+1. **Perception QA data generated by the data engine can effectively enhance the model's visual perception capabilities through reinforcement learning**
+
+2. **Training dynamics showed stable convergence** with consistent entropy loss decrease and KL divergence stabilization
+
+3. **Difficulty-based monitoring** allows for adjustment of data engine construction strategies to improve learning effectiveness
+
+## Future Directions
+
+We propose three research directions:
+
+1. **Investigating compatibility between long-CoT and short-form perception QA training paradigms**
+
+2. **Exploring whether task-specific or mixed-task reinforcement learning yields better performance**
+
+3. **Developing automated pipelines for building data engines** using agent-based approaches
+
+## Research Impact
+
+This work demonstrates that:
+- **Data engines can provide high-quality, automatically verifiable training data** for visual perception tasks
+- **Reinforcement learning on synthetic perception data effectively improves VLM capabilities** 
+- **The approach is cost-effective and scalable** compared to human annotation methods
+- **Enhanced perception can serve as foundation for better multimodal reasoning**
+
+**Full Research Paper**: [Enhancing the Perception Ability of VLM through Reinforcement Learning via Data Engine](https://www.notion.so/Enhancing-the-Perception-Ability-of-VLM-through-Reinforcement-Learning-via-Data-Engine-1aca1e0d824c80898693ed5fec3348ac)
