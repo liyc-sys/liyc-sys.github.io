@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yuchen Li - Personal Website"
+title: "Yuchen Li – Personal Website"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,8 +9,8 @@ redirect_from:
 
 Hi, I'm Yuchen 👋 Welcome to my personal website.
 
-I studied Computer Science and Finance as a dual degree at Tsinghua, and later focused on their intersection—AI in finance—during my master's program. This gave me both rigorous training in financial theory and solid programming skills.
+I studied Computer Science and Finance as a dual degree at Tsinghua University, and later explored their intersection—AI and data analytics in finance—during my master's program. This gave me both rigorous training in financial theory and strong technical skills in programming and data analysis.
 
-Professionally, I've explored different perspectives across AI research, the sellside, and the buyside. These experiences not only broadened my understanding of finance and technology, but also helped me find my direction in quantitative research. I'm especially curious about how new technologies—such as large language models, which can turn unstructured data into usable signals—might open up fresh possibilities in this field.
+Professionally, I've gained experience across AI research, buyside&sellside quantitative finance, and data-driven projects. These experiences broadened my perspective on how technology and algorithms can be applied to solve complex problems and generate actionable insights in various domains.
 
-Looking ahead, I hope to contribute to a leading quantitative research team, where I can combine finance and AI to develop scalable, data-driven strategies.
+Looking ahead, I hope to contribute to a dynamic team where I can leverage both finance and AI to tackle challenging problems, build effective data-driven solutions, and create meaningful impact across industries.
